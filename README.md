@@ -1,1 +1,1 @@
-# hands-on_labs_DevOps
+# devops-hands-on-labs
