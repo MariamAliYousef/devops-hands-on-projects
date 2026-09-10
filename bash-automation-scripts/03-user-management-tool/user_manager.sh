@@ -109,7 +109,7 @@ check_user(){
 	echo "Group ID (GID):  $(id -g "$USERNAME")"
 	echo "Groups:          $(id -nG "$USERNAME")"
 	echo "Home Directory:  $(getent passwd "$USERNAME" | cut -d: -f6)"
-	echo "Default Shell:   $(getent passwd "$USERNAME" | cut -d: -f7)"
+	echo "Default Shell :  $(getent passwd "$USERNAME" | cut -d: -f7)"
 	echo "==========================="
     else
 	echo -e "${RED}ERROR: User '$USERNAME' doesn't exist! ${NC}"
